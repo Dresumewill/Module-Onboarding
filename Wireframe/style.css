@@ -63,6 +63,7 @@ header h1 {
 
 .header h1 {
     text-transform: uppercase;
+    color: aqua;
 }
 
 .article-content {
