@@ -129,4 +129,27 @@
           3. What colour should this t-shirt be? I must give 3 options. How will I make sure they don't pick other colours?
           4. What size does the customer want? I must give the following 6 options: XS, S, M, L, XL, XXL -->
 
-          
+          <fieldset>
+            <legend>Order Your T-Shirt</legend>
+            <div class="form-group">   
+
+              <label for="customer-name">Name:</label>
+              <input 
+                  type="text" 
+                  id="name" 
+                  name="customer-name" required 
+                  minlength="2"
+                  pattern="[A-Za-z '-]+" required
+                  placeholder="Ifeyinwa Williams"/>
+            </div>
+
+            <div class="form-group">
+              <label for="customer-email">Email:</label>
+              <input 
+                  type="email" 
+                  id="customer-email" 
+                  name="customer_email" required
+                  placeholder="myemail@example.com" />
+            </div>
+
+            
